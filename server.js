@@ -1,18 +1,3 @@
-// const express = require('express');
-// const bodyparser = require('body-parser');
-// const penggunaController = require('./controllers/penggunaController');
-// const produkController=require('./controllers/produkController');
-// require("dotenv").config();
-
-// const app = express();
-
-// app.use(bodyparser.json());
-// app.use('/api', penggunaController);
-// app.use('/api', produkController);
-
-// app.listen(3000, () => {
-//   console.log('Server berjalan di http://localhost:3000');
-// });
 
 const express = require('express');
 const penggunaController = require('./controllers/penggunaController');
